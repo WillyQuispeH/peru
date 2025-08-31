@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaInstagram, FaTiktok, FaFacebook, FaYoutube } from "react-icons/fa";
 
@@ -28,19 +29,16 @@ const Peru = () => {
           el que dice PERU (hecho por Ibai) y dale like para que todos vean
           nuestro pan con chicharrón y tamal.
         </p>
-        <button
+        <Link
+          href={"https://www.instagram.com/p/DN3bif02M7M/"}
+          target="_blank"
           className="
-    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer 
-    transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
+         w-full col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer  text-center
+          transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
         >
           Ir a publicación
-        </button>
-        <button
-          className="col-span-6 bg-white border border-red-600 rounded-[10px] p-3 text-red-600 font-bold cursor-pointer
-        transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
-        >
-          Ir a comentario
-        </button>
+        </Link>
+
         <p className="col-span-12 xl:text-[13px] font-bold text-[#666] text-[12px]">
           Elevemos nuestra voz para que el desayuno peruano conquiste el mundo.
         </p>
@@ -56,19 +54,18 @@ const Peru = () => {
           el que dice PERU (hecho por Ibai) y dale like para que todos vean
           nuestro pan con chicharrón y tamal.
         </p>
-        <button
+        <Link
+          href={
+            "https://www.tiktok.com/@ibaillanos/video/7543311318334459158?is_from_webapp=1&sender_device=pc&web_id=7390855316623508997"
+          }
+          target="_blank"
           className="
-    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer 
+    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer  text-center
     transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
         >
           Ir a publicación
-        </button>
-        <button
-          className="col-span-6 bg-white border border-red-600 rounded-[10px] p-3 text-red-600 font-bold cursor-pointer
-        transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
-        >
-          Ir a comentario
-        </button>
+        </Link>
+
         <p className="col-span-12 xl:text-[13px] font-bold text-[#666] text-[12px]">
           Que cada rincón sepa que en Perú la tradición se sirve en la mesa.
         </p>
@@ -84,19 +81,16 @@ const Peru = () => {
           comentarios, busca PERU (el comentario de Ibai) y toca like. ¡Que
           todos vean lo que Perú representa!
         </p>
-        <button
+        <Link
+          href={"https://www.facebook.com/reel/1818613305441221"}
+          target="_blank"
           className="
-    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer 
+    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer  text-center
     transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
         >
           Ir a publicación
-        </button>
-        <button
-          className="col-span-6 bg-white border border-red-600 rounded-[10px] p-3 text-red-600 font-bold cursor-pointer
-        transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
-        >
-          Ir a comentario
-        </button>
+        </Link>
+
         <p className="col-span-12 xl:text-[13px] font-bold text-[#666] text-[12px]">
           Unidos, podemos llevar al pan con chicharrón y tamal a la gloria
           mundial.
@@ -113,19 +107,16 @@ const Peru = () => {
           encuentra el comentario PERU hecho por Ibai y dale like. ¡Demostremos
           nuestro sabor al mundo!
         </p>
-        <button
+        <Link
+          href={"https://youtube.com/shorts/wq26EEOtiBw?si=VNwTC73_mu_gyax3"}
+          target="_blank"
           className="
-    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer 
+    col-span-6 bg-red-600 rounded-[10px] p-3 text-white font-bold cursor-pointer  text-center
     transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
         >
           Ir a publicación
-        </button>
-        <button
-          className="col-span-6 bg-white border border-red-600 rounded-[10px] p-3 text-red-600 font-bold cursor-pointer
-        transform transition-transform duration-200 active:scale-95 xl:text-[16px] text-[13px]"
-        >
-          Ir a comentario
-        </button>
+        </Link>
+
         <p className="col-span-12 xl:text-[13px] font-bold text-[#666] text-[12px]">
           Este es el momento de demostrar la fuerza de nuestra gastronomía.
         </p>
