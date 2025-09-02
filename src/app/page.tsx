@@ -1,4 +1,5 @@
-import Peru from "@/component/peru/perut";
+
+import HeroGeometric from "../component/peru/geometric";
 export default function Home() {
-  return <Peru />;
+  return <HeroGeometric />;
 }

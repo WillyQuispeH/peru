@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   title: "Vota por Perú - mundial de desayunos",
   description: "Peru - mundial de desayunos",
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
